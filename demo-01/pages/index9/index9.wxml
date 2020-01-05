@@ -1,0 +1,10 @@
+<view hover-class="hover_class">
+    index9
+</view>
+
+<view>
+    <text selectable="{{true}}"> index9 text</text>
+    <text decode="{{true}}"> 普&nbsp;通</text>
+</view>
+  
+  

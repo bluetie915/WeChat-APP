@@ -1,0 +1,16 @@
+<view>
+    <!-- image标签是web是的img标签和背景图片结合体 -->
+    
+    不保持纵横比例，拉伸长宽，图片填满区域，大小按照设定
+    <image src="../../images/1.png" mode="scaleToFill"></image>
+    保持纵横比例，拉伸长宽，图片长边填满左右，大小按照设定
+    <image src="../../images/1.png" mode="aspectFit"></image>
+    保持纵横比例，拉伸长宽，图片宽边填满上下，居中显示，大小按照设定
+    <image src="../../images/1.png" mode="aspectFill"></image>
+    保持纵横比例，拉伸长宽，图片长边填满左右，大小按照图片拉伸宽度
+    <image src="../../images/1.png" mode="widthFix"></image>
+    不缩放图片，只显示图片的顶部区域
+    <image src="../../images/1.png" mode="top"></image>
+    不缩放图片，只显示图片的中间区域
+    <image src="../../images/1.png" mode="center"></image>
+</view>

@@ -1,0 +1,9 @@
+<view>
+    Hello World {{msg}}
+    <view>num: {{num}}</view>
+    <view>isBoy: {{isBoy}}</view>
+    <view>person.name: {{person.name}}---person.height{{person.height}}</view>
+    <view data-id="{{title}}">title</view>
+    <!-- 在属性里面要使用boolean类型，一定要使用{{}} -->
+    <view><checkbox checked="{{true}}"></checkbox></view>
+</view>
