@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/index14/index14",
+    "pages/index13/index13",
     "pages/index12/index12",
     "pages/index11/index11",
     "pages/index10/index10",
@@ -21,6 +23,24 @@
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f23030",
+    "backgroundColor": "#0094ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap86.json"
 }

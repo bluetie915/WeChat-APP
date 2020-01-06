@@ -5,6 +5,6 @@
 <!-- 跳转到tabBar页面，并关闭其他所有非tabBar页面 -->
 <navigator url="../index/index" open-type="switchTab">index</navigator>
 <!-- 关闭所有页面，打开到应用内的某个页面 -->
-<navigator url="../index11/index11" open-type="relaunch">index</navigator>
+<navigator url="../index11/index11" open-type="reLaunch">index</navigator>
 
 
