@@ -8,8 +8,8 @@
     flex: 7;
 }
 .logo_img {
-    width: 140rpx;
-    height: 60rpx;
+    width: 170rpx;
+    height: 80rpx;
 }
 .search_icon {
     flex: 1;
